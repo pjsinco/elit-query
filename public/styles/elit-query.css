@@ -1,0 +1,12 @@
+.elit-query__q, .elit-query__a, .elit-query__c {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600; }
+
+.elit-query {
+  background-color: rgba(255, 215, 0, 0.5); }
+  .elit-query__q {
+    color: firebrick; }
+  .elit-query__a {
+    color: #4a5899; }
+  .elit-query__c {
+    color: #686868; }

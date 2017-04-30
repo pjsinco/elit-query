@@ -1,0 +1,30 @@
+$questionColor: firebrick;
+$answerColor: #4a5899;
+$commentColor: #686868;
+
+%elit-query-text-base {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.elit-query {
+  
+
+  background-color: rgba(gold, .5);
+
+  &__q {
+    @extend %elit-query-text-base;
+    color: $questionColor;
+  }
+
+  &__a {
+    @extend %elit-query-text-base;
+    color: $answerColor;
+  }
+
+  &__c {
+    @extend %elit-query-text-base;
+    color: $commentColor;
+  }
+
+}
